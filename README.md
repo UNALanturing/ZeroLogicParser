@@ -1,2 +1,4 @@
 # ZeroLogicParser
-This repo is entirely dedicated to the final workshop of Programming Languages class. Universidad Nacional de Colombia
+
+## Documentation
+Full proyect documentation can be found here: [link](https://www.overleaf.com/4191477786nkhfrycgbshw)
