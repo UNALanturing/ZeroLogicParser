@@ -6,4 +6,4 @@ Disyuncion ::= Conjuncion OR Disyuncion | Conjuncion
 Conjuncion ::= Literal AND Conjuncion | Literal
 Literal ::= Atomo | NOT Atomo
 Atomo ::= "True" | "False" | ID | Agrupacion
-Agrupacion ::= |(Bicondicional)|[Bicondicional]|{Bicondicional}
+Agrupacion ::= ( Bicondicional ) | [ Bicondicional ] | { Bicondicional }
