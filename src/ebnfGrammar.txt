@@ -1,9 +1,0 @@
-/* Definiciones de las gramáticas en EBNF*/
-
-Bicondicional ::= Condicional DOBLE_IMPLICACION Bicondicional | Condicional
-Condicional ::= Disyuncion IMPLICACIÓN Condicional | Disyuncion
-Disyuncion ::= Conjuncion OR Disyuncion | Conjuncion
-Conjuncion ::= Literal AND Conjuncion | Literal
-Literal ::= Atomo | NOT Atomo
-Atomo ::= "True" | "False" | ID | Agrupacion
-Agrupacion ::= ( Bicondicional ) | [ Bicondicional ] | { Bicondicional }
